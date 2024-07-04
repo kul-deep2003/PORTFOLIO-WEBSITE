@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 550px;
+    width: 500px;
+    border-radius: 2rem;
+    color: blueviolet;
+    
+    padding:1.6rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card{
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+form ,input,select{
+    width:100%;
+}
+.text{
+    border:1px solid #ccc;
+    border-radius: 0.3rem;
+    padding:0.6rem;
+    color:#333;
+    outline:none;
+    width:85%;
+    margin-top: 1rem;
+}
+.text:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+.select img{
+    height: 48px;
+    width:48px;
+}
+.select{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gainsboro;
+    gap:0.67rem;
+    border-radius: 0.6rem;
+    padding:0.5rem;
+    margin-top:0.9rem;;
+}
+.dropdown i{
+    margin-top: 2rem;
+    padding-right: 0.78rem;
+    font-size: 1.4rem;
+}
+.msg{
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding-right: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+button{
+    background-color:rgb(65, 50, 125);
+    color:white;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    padding:1rem;
+}
+.btn{
+    padding-left: 2rem;;
+}

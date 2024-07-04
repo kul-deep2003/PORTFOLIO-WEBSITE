@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-image: url(https://img.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg?w=996&t=st=1713787693~exp=1713788293~hmac=a5d96d12b4ee3236e56d736ee9114dff3e1129f62e07b037efbeab9f8b431986);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    width:100vw;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:darkorchid;
+    font-weight: bold;
+    margin-bottom: 3.9rem;
+}
+.boxes{
+    height:500px;
+    width:500px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:1rem;
+    margin:0 auto;
+}
+.box{
+    border:1px solid black;
+    border-radius: 2rem;
+    background-color: burlywood;
+    color:rgba(174, 44, 70, 0.636);
+    font-size: 5rem;
+    font-weight: bold;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    padding:1.2rem;
+    margin:1.2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    border:1px solid black;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    color:#fff;
+    background-color: black;
+}
+.winner{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-vector/gradient-black-background-with-realistic-elements_23-2149147608.jpg?w=996&t=st=1713856377~exp=1713856977~hmac=43aa3861d91ce827c29192601fbd444ace068bb0900d521ad8fa78492ff6dbeb9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    font-size: 2rem;
+    color:aqua;
+}
+/* .new{
+    padding:1.2rem;
+    margin:1.2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    border:1px solid black;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-color: black;
+} */
+.chalo{
+    padding:1.2rem;
+    margin:1.2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    border:1px solid black;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    color:#fff;
+    background-color: black;
+
+}
+.hide{
+    display:none;
+}
+.hode{
+    display:none;
+}
+.tie{
+    background-color: aquamarine;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+#t{
+    color:beige;
+    font-size: 2rem;
+    font-weight: bold;
+}
